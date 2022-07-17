@@ -1,4 +1,3 @@
-import Footer from '../components/organisms/Footer/Footer'
 import Header from '../components/organisms/Header/Header'
 import Router from '../router/Router'
 import './App.scss'
@@ -12,7 +11,6 @@ const App: FC = () => {
             <div className="wrapper">
                 <Router/>
             </div>
-            <Footer/>
         </>
     )
 }
